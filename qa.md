@@ -8,7 +8,7 @@
 - Gate 6 image/layout audit: PASS — all image assets load; no duplicate file use; hero not reused in gallery; portrait frames match portrait sources; no letterboxing, visible card container frames, or awkward hair-result crop in final screenshots.
 - Gate 7 map/local SEO audit: PASS — bottom map/contact block directly above footer; embedded Google Maps iframe has explicit width/height, visibly loads in focused QA, fills the designed map container; exactly one visible navigation CTA in contact block.
 - Gate 8 responsive visual QA: PASS — desktop/mobile screenshots inspected by strict image QA after fixes; no blockers for typography, image crop, gallery, testimonials, map, footer icons, mobile rhythm, or CTA duplication. Footer links use polished high-contrast SVG icon buttons, not raw letter badges or low-contrast glyphs.
-- Gate 9 final live QA: pending deployment.
+- Gate 9 final live QA: PASS — GitHub Pages HTTP 200; live screenshots passed strict desktop/mobile visual QA; live HTML contains business name, testimonial phrase, and embedded Google Maps iframe.
 
 ## Notes
 - Address conflict documented in `image-map.md`; site uses Google Places/Titul address `бул. Ломско шосе 57, ж.к. Надежда 1`, matching row/CID.
